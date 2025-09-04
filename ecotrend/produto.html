@@ -3,23 +3,281 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EcoTrend | Produto</title>
+  <title>Produto | EcoTrend</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-md-6">
-        <img src="img/produto1.jpg" class="img-fluid" alt="Produto Sustentável">
-      </div>
-      <div class="col-md-6">
-        <h2 class="text-success">Camiseta Sustentável</h2>
-        <p>Produzida com algodão orgânico e processos de baixo impacto ambiental.</p>
-        <h3>R$ 89,90</h3>
-        <button class="btn btn-success">Adicionar ao Carrinho</button>
+  
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-leaf me-2"></i>EcoTrend
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="categorias.html">Categorias</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+        <a href="#" class="btn btn-success ms-3">
+          <i class="fas fa-shopping-cart me-2"></i>Carrinho
+        </a>
       </div>
     </div>
+  </nav>
+
+  
+  <div class="container" style="margin-top: 100px;">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="categorias.html">Categorias</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Produto</li>
+      </ol>
+    </nav>
   </div>
+
+  
+  <section class="container py-5">
+    <div class="row">
+      
+      <div class="col-lg-6 mb-4">
+        <div class="product-gallery">
+          <div class="main-image mb-3">
+            <div class="img-placeholder" style="height: 400px; border-radius: 15px;">
+              <i class="fas fa-tshirt fa-5x"></i>
+            </div>
+          </div>
+          <div class="thumbnail-images row g-2">
+            <div class="col-3">
+              <div class="img-placeholder" style="height: 80px; border-radius: 10px; cursor: pointer;">
+                <i class="fas fa-tshirt"></i>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="img-placeholder" style="height: 80px; border-radius: 10px; background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%); cursor: pointer;">
+                <i class="fas fa-tshirt"></i>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="img-placeholder" style="height: 80px; border-radius: 10px; background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%); cursor: pointer;">
+                <i class="fas fa-tshirt"></i>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="img-placeholder" style="height: 80px; border-radius: 10px; background: linear-gradient(135deg, #9C27B0 0%, #673AB7 100%); cursor: pointer;">
+                <i class="fas fa-tshirt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-6">
+        <div class="product-info">
+          <h1 class="mb-3">Camiseta Sustentável Premium</h1>
+          
+          
+          <div class="ratings mb-3">
+            <div class="stars">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+            </div>
+            <span class="ms-2 text-muted">(127 avaliações)</span>
+          </div>
+
+          
+          <div class="price-section mb-4">
+            <h2 class="text-success mb-2">R$ 89,90</h2>
+            <p class="text-muted"><del>R$ 119,90</del> <span class="badge bg-danger ms-2">-25%</span></p>
+          </div>
+
+          
+          <div class="description mb-4">
+            <h5>Descrição</h5>
+            <p class="text-muted">
+              Camiseta premium feita com 100% algodão orgânico certificado. 
+              Produzida de forma sustentável, sem uso de pesticidas ou produtos químicos nocivos. 
+              Ideal para quem busca conforto e consciência ambiental.
+            </p>
+          </div>
+
+          
+          <div class="features mb-4">
+            <h5>Características</h5>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check text-success me-2"></i>100% Algodão Orgânico</li>
+              <li><i class="fas fa-check text-success me-2"></i>Produção Sustentável</li>
+              <li><i class="fas fa-check text-success me-2"></i>Sem Produtos Químicos</li>
+              <li><i class="fas fa-check text-success me-2"></i>Certificação GOTS</li>
+              <li><i class="fas fa-check text-success me-2"></i>Lavagem a Frio</li>
+            </ul>
+          </div>
+
+          
+          <div class="sizes mb-4">
+            <h5>Tamanhos Disponíveis</h5>
+            <div class="btn-group" role="group">
+              <input type="radio" class="btn-check" name="size" id="p" disabled>
+              <label class="btn btn-outline-secondary" for="p">P</label>
+              
+              <input type="radio" class="btn-check" name="size" id="m">
+              <label class="btn btn-outline-secondary" for="m">M</label>
+              
+              <input type="radio" class="btn-check" name="size" id="g" checked>
+              <label class="btn btn-outline-secondary" for="g">G</label>
+              
+              <input type="radio" class="btn-check" name="size" id="gg">
+              <label class="btn btn-outline-secondary" for="gg">GG</label>
+            </div>
+          </div>
+
+          
+          <div class="actions mb-4">
+            <div class="row align-items-center">
+              <div class="col-md-4">
+                <label class="form-label">Quantidade</label>
+                <div class="input-group">
+                  <button class="btn btn-outline-secondary" type="button">-</button>
+                  <input type="number" class="form-control text-center" value="1" min="1">
+                  <button class="btn btn-outline-secondary" type="button">+</button>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <button class="btn btn-success btn-lg w-100 mb-2">
+                  <i class="fas fa-shopping-cart me-2"></i>Adicionar ao Carrinho
+                </button>
+                <button class="btn btn-outline-success w-100">
+                  <i class="fas fa-heart me-2"></i>Adicionar aos Favoritos
+                </button>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="additional-info">
+            <div class="row text-center">
+              <div class="col-4">
+                <i class="fas fa-truck fa-2x text-primary mb-2"></i>
+                <p class="small text-muted">Entrega Grátis</p>
+              </div>
+              <div class="col-4">
+                <i class="fas fa-undo fa-2x text-success mb-2"></i>
+                <p class="small text-muted">30 dias para troca</p>
+              </div>
+              <div class="col-4">
+                <i class="fas fa-shield-alt fa-2x text-warning mb-2"></i>
+                <p class="small text-muted">Garantia 1 ano</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="container py-5">
+    <h3 class="text-center mb-4">Produtos Relacionados</h3>
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100">
+          <div class="img-placeholder" style="height: 200px; background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);">
+            <i class="fas fa-socks fa-3x"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Meias Sustentáveis</h6>
+            <p class="card-text">R$ 29,90</p>
+            <a href="produto.html" class="btn btn-outline-success btn-sm">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100">
+          <div class="img-placeholder" style="height: 200px; background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);">
+            <i class="fas fa-shoe-prints fa-3x"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Tênis Ecológico</h6>
+            <p class="card-text">R$ 199,90</p>
+            <a href="produto.html" class="btn btn-outline-success btn-sm">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100">
+          <div class="img-placeholder" style="height: 200px; background: linear-gradient(135deg, #9C27B0 0%, #673AB7 100%);">
+            <i class="fas fa-gem fa-3x"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Acessórios Verdes</h6>
+            <p class="card-text">R$ 49,90</p>
+            <a href="produto.html" class="btn btn-outline-success btn-sm">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100">
+          <div class="img-placeholder" style="height: 200px;">
+            <i class="fas fa-tshirt fa-3x"></i>
+          </div>
+          <div class="card-body">
+            <h6 class="card-title">Camiseta Básica</h6>
+            <p class="card-text">R$ 69,90</p>
+            <a href="produto.html" class="btn btn-outline-success btn-sm">Ver mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="text-white text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="mb-3">
+            <i class="fas fa-leaf me-2"></i>EcoTrend
+          </h5>
+          <p class="text-muted">Produtos sustentáveis para um futuro melhor</p>
+        </div>
+        
+        <div class="col-md-4">
+          <h6 class="mb-3">Links Úteis</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted text-decoration-none">Sobre Nós</a></li>
+            <li><a href="#" class="text-muted text-decoration-none">Política de Privacidade</a></li>
+            <li><a href="#" class="text-muted text-decoration-none">Termos de Uso</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-4">
+          <h6 class="mb-3">Redes Sociais</h6>
+          <div class="social-links">
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="my-4">
+      <p class="mb-0">&copy; 2025 EcoTrend - Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

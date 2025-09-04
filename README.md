@@ -56,8 +56,10 @@ ecotrend/
 
 ## 👨‍💻 Integrantes do Grupo
 
-- Nome 1
-- Nome 2
-- Nome 3
-- Nome 4
-- Nome 5
+### 📋 Lista de Alunos com RM
+
+1. **565601** – Gustavo Cavalcanti
+2. **563068** – Felipe Riofrio Cheban Nicolau
+3. **563295** – Tomás Antonio Braga Cantuária
+4. **563294** – Mateus Macedo Batista de Souza
+5. **565931** – Matheus Augusto Xavier
