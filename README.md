@@ -46,7 +46,7 @@ ecotrend/
 
 1. Faça o clone do repositório:
    ```bash
-   git clone https://github.com/seu-usuario/ecotrend.git
+   git clone https://github.com/MathXavier3/ecotrend.git
    ```
 2. Abra a pasta do projeto:
    ```bash
